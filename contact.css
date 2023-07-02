@@ -1,0 +1,86 @@
+
+body {
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Main Content Styles */
+  main {
+    padding: 20px;
+  }
+  P{
+    width: auto;
+    text-align: justify;
+  }
+
+  .contact-section {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .contact-section h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-section form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .contact-section form input,
+  .contact-section form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-section form textarea {
+    resize: vertical;
+  }
+  
+  .contact-section form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .contact-section form input[type="submit"]:hover {
+    background-color: #555;
+    align-items: center;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }

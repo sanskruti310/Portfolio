@@ -52,9 +52,15 @@ body {
     margin: 20px;
     padding-bottom: 20px;
   }
+
+  .title{
+    font-size: larger;
+    text-indent: 0px;
+  }
   
   article {
     margin-bottom: 20px;
+    padding: 20px;
     font-size: medium;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     line-height: 1.5;
